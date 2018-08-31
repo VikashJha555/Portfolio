@@ -66,9 +66,9 @@ h2:after{
 	height: 100px;
 	width: auto;
 }
-.section-hero .nav-panel img{
-	height: 110px;
-	border-radius: 150px;
+.section-hero .nav-panel.nav-list-container.hero-text-box img{
+	height: 150px;
+	border-radius: 250px;
 	width: auto;
 	float: center;
 }
@@ -128,15 +128,22 @@ h2:after{
 	text-align: center;
 	letter-spacing: 1px;
 }
-
-.section-hero .hero-text-box p{
-	font-size: 110%;
-}
-
 .section-hero .hero-text-box h1{
 	margin-top: 7px;
 	font-size: 270%;
 }
+
+.section-hero .hero-text-box p{
+	font-size: 110%;
+}
+.section-hero .hero-text-box img{
+	height: 250px;
+	border-radius: 350px;
+	width: auto;
+	float: center;
+}
+
+
 
 .section-hero .hero-button {
 	position: absolute;
@@ -199,9 +206,12 @@ h2:after{
 /* ---------------------- */
 
 .section-menu{
-	background: rgba(192,72,72,1);
-	background: linear-gradient(to right, rgba(192,72,72,1) 0%, rgba(72,0,72,1) 100%);
-	transition: background 2.0s;
+	letter-spacing: 1px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    background-attachment: fixed;
 }
 
 .section-menu .menu-image-container{
@@ -227,6 +237,27 @@ h2:after{
 	opacity: 1.0;
 	transform: scale(0.8);
 }
+.skills{
+	letter-spacing: 1px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    background-attachment: fixed;
+}
+.skills h2{
+	text-align: center;
+	font-weight: 500;
+	font-size: 160%;
+	text-transform: uppercase;
+}
+
+.section-about p{
+	margin-top: 20px;
+	font-weight: 300;
+	font-size: 105%;
+}
+
 
 /* ---------------------- */
 /*    SECTION 3: FOOTER   */
